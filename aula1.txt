@@ -18,5 +18,30 @@ Criando repositórios
 
 *Precisamos criar o projeto no GitHub, inicializar o mesmo no git em nossa máquina, sincronizar com o GH e enviar;
 
-//
+*Entra no gitHub, cria um rebositório, coloca os seguintes comandos:
+
+git init
+git add <nome do arquivo(read-me)>
+git commit -m "primeira commit" (necessário para dar o primeiro push e se conectar git com guthub)
+git branch -M main (vai criar a linha do tempo principal)
+git remote add origin <link> (vai conectar git com github)
+git push -u origin main (vai conectar a branch main com a origem (repositório no github))
+
+após isso basta usar o git push normal para enviar as novas commits
+
+// comandos aprendidos para resolver o problema 
+
+git log --oneline (mostra o histórico dos commits)
+git rebase (edita os commits)
+
+git rebase -i HEAD~2 (vai mostrar os ultimos dois commits do histórico) (edita
+ou dropa a commit que desejar)
+
+git rebase --amend (vai salvar, seja editar ou dropar)
+git rebase --amend --no-edit (salva ou dropa sem editar nada)
+git rebase --continue (finaliza o processo)
+git rebase --abort (aborta o processo)
+git rebase --skip (acho que ignore)
+
+git push --force (força o envio)
 
