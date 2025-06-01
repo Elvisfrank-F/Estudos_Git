@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+=======
+Criando repositórios 
+
+* Para criar repositórios utilizamos o comando: git init
+
+* dessa maneira o git vai criar os arquivos necessários para inicializá-lo;
+
+*Desta maneira o git vai criar os arquivo
+
+*Que estão na pasta oculta .git;
+
+*Após este comando o diretório atual será reconhecimento pelo git como um projeto e respondesrá aos seus demais comandos
+
+//AULA 02
+
+*Podemos facilmente enviar nossos repos para o GitHub;
+
+*Precisamos criar o projeto no GitHub, inicializar o mesmo no git em nossa máquina, sincronizar com o GH e enviar;
+
+//
+
