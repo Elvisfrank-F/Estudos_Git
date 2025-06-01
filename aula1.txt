@@ -45,3 +45,11 @@ git rebase --skip (acho que ignore)
 
 git push --force (força o envio)
 
+git commit -a //envia commits de vários arquivos 
+git add .  //adiciona vários arquivos
+
+git commit -a -m "texto"
+
+git pull //atualiza o repositório
+
+
