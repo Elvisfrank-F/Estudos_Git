@@ -60,4 +60,13 @@ continuar, porém o pull normal não funcionou, o que funcionou foi:
 
 git pull --rebase //esse aqui funcinou normalmente
 
+//aulas 3
 
+git clone <link> //clona o repositório do git
+
+git rm <nome do arquivo> //remove o arquivo do projeto
+
+git add <nome do arquivo> //adiciona um arquivo específico
+git add . //adiciona todos os arquivos novos
+git add * //adiciona todos os arquivos novos menos os ocultos
+git add -A //Adiciona tudo, inclusive remoções de arquivos
