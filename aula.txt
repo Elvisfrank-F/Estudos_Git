@@ -1,0 +1,63 @@
+<<<<<<< HEAD
+=======
+Criando repositórios 
+
+* Para criar repositórios utilizamos o comando: git init
+
+* dessa maneira o git vai criar os arquivos necessários para inicializá-lo;
+
+*Desta maneira o git vai criar os arquivo
+
+*Que estão na pasta oculta .git;
+
+*Após este comando o diretório atual será reconhecimento pelo git como um projeto e respondesrá aos seus demais comandos
+
+//AULA 02
+
+*Podemos facilmente enviar nossos repos para o GitHub;
+
+*Precisamos criar o projeto no GitHub, inicializar o mesmo no git em nossa máquina, sincronizar com o GH e enviar;
+
+*Entra no gitHub, cria um rebositório, coloca os seguintes comandos:
+
+git init
+git add <nome do arquivo(read-me)>
+git commit -m "primeira commit" (necessário para dar o primeiro push e se conectar git com guthub)
+git branch -M main (vai criar a linha do tempo principal)
+git remote add origin <link> (vai conectar git com github)
+git push -u origin main (vai conectar a branch main com a origem (repositório no github))
+
+após isso basta usar o git push normal para enviar as novas commits
+
+// comandos aprendidos para resolver o problema 
+
+git log --oneline (mostra o histórico dos commits)
+git rebase (edita os commits)
+
+git rebase -i HEAD~2 (vai mostrar os ultimos dois commits do histórico) (edita
+ou dropa a commit que desejar)
+
+git rebase --amend (vai salvar, seja editar ou dropar)
+git rebase --amend --no-edit (salva ou dropa sem editar nada)
+git rebase --continue (finaliza o processo)
+git rebase --abort (aborta o processo)
+git rebase --skip (acho que ignore)
+
+git push --force (força o envio)
+
+git commit -a //envia commits de vários arquivos 
+git add .  //adiciona vários arquivos
+
+git commit -a -m "texto"
+
+git pull //atualiza o repositório
+
+//situação
+
+ao tentar dar push no arquivo do github sem atualizar os novos commits feito por outro dev
+ocorreu um erro, onde me forçou primeiramente a fazer essa atualização com o pull, e só depois
+continuar, porém o pull normal não funcionou, o que funcionou foi:
+
+git pull --rebase //esse aqui funcinou normalmente
+
+
