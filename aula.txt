@@ -113,3 +113,33 @@ o desenvolvimento. Caso a do joão já tenha sido enviado para a main, basta
 o elvis meclar o main com a branch dele, assim ele vai meio que atualizar 
 a branch dele com as novas funcionalidades da main, mas antes tem que dar um 
 pull na master obviamente.
+
+
+// aula 03 -- stash
+
+git stash ( ele joga tudo no lixo e volta ao estado original)
+
+git stach list (lista todas as stashs criadas)
+
+git stach apply <numero> (vai recuperar a stash)
+
+git stash drop <numero> (exclui a stash especifica)
+
+git stash clear (exclui todas as stashs)
+
+//aula 04 -- tags
+
+git tag (lista as tags)
+
+git tag -a <nome> -m "<msg>"
+
+tag serve como um checkpoint de um branch
+
+git show <nome>
+
+git checkout <nome> (mudar entre as tags)
+
+
+git push origin <nome da tag> (enviar a tag para o repositório)
+
+git push origin --tags (envia todas as tags)
