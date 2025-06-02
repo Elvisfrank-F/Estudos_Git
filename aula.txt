@@ -81,3 +81,35 @@ esse comando ele reseta o arquivo (antes da modificação)
 git reset (serve para resetar a branch)
 
 .gitignore (tudo o que colocar dentro desse arquivo será ignorado pelo git)
+
+
+// nova secção
+
+novo tópico : branch
+
+Branch são versões diferentes do código (linha do tempo paralela)
+
+git branch (lista todas as branchs disponiveis)
+git branch <nome_da_branch> cria uma branch
+git branch -d <nome> //deleta a branch
+git branch -delete <nome> //deleta a branch
+
+git checkout <nome da branch> vai para a branch que deseja
+git checkout -b <nome da branch> vai para branch que deseja e caso nao exista, cria uma nova
+
+obs: atenção, cuidado ao sair de uma branch e ir para outra sem antes dar 
+o commit em todas as alterações da branch atual. O branch leva os não-commits
+para a branch posterior, o que pode gerar confusão futuramente.
+
+//aula 02
+
+para mesclar uma branch paralela com a master, basta usar o comando:
+git merge <nome da branch> dentro da branch que deseja mesclar, por exemplo,
+se estivermos na branch master, ao usar git branch <nome da branch> 
+É possivel mesclar duas branches paralelas independentes da master, caso 
+a branch do joao seja aprovada, e a branch do elvis está em desenvolvimento,
+o elvis pode mesclear a branch dele com a do João, para então já continuar 
+o desenvolvimento. Caso a do joão já tenha sido enviado para a main, basta
+o elvis meclar o main com a branch dele, assim ele vai meio que atualizar 
+a branch dele com as novas funcionalidades da main, mas antes tem que dar um 
+pull na master obviamente.
