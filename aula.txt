@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+]<<<<<<< HEAD
 =======
 Criando repositórios 
 
@@ -70,3 +70,14 @@ git add <nome do arquivo> //adiciona um arquivo específico
 git add . //adiciona todos os arquivos novos
 git add * //adiciona todos os arquivos novos menos os ocultos
 git add -A //Adiciona tudo, inclusive remoções de arquivos
+
+
+//aula como descartar modificações
+
+git checkout <nome do arquivo> 
+
+esse comando ele reseta o arquivo (antes da modificação)
+
+git reset (serve para resetar a branch)
+
+.gitignore (tudo o que colocar dentro desse arquivo será ignorado pelo git)
