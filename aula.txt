@@ -143,3 +143,12 @@ git checkout <nome> (mudar entre as tags)
 git push origin <nome da tag> (enviar a tag para o repositório)
 
 git push origin --tags (envia todas as tags)
+
+
+//salvar o nome da pessoa no projeto
+
+git config --global user.name "Seu nome"
+git config --global user.email "seu@email"
+
+git config user.name "seu nome" //para alvar apenas neste projeto
+git config user.email "email"
